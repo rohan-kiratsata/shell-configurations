@@ -238,7 +238,7 @@ symbol = "terraform "
 
 [time]
 disabled = false
-format = "[ $time]($style)"
+format = "[ $time]($style) "
 time_format = "%R"
 utc_time_offset = "local"
 style = "dimmed white"
@@ -257,9 +257,14 @@ format = '\[[$symbol($version)]($style)\]'
 symbol = "zig "
 
 [character]
-success_symbol = "[>](bold green)"
+success_symbol = "[►](bold green)"
 error_symbol = "[x](bold red)"
 vimcmd_symbol = "[<](bold green)"
 
 [git_commit]
 tag_symbol = " tag "
+
+[battery]
+full_symbol = '🔋 '
+charging_symbol = '⚡️ '
+discharging_symbol = '💀 '
