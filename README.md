@@ -1,4 +1,4 @@
-# Terminal Configuration
+# Shell Configuration
 
 Here's how I've customized my terminal using [starship.rs](https://starship.rs).
 
